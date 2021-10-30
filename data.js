@@ -2,12 +2,11 @@ function dataOpschonen() {
   fetch("data.json")
     .then(response => response.json())
     .then(data => {
-      // console.log(data);
 
       // functie waarmee de vraag wordt omgezet in alleen een woord 'huisdier'
-      function changeQuestionToWord (str) {
+      function changeQuestionToWord(str) {
         const new_key = 'huisdier';
-        const huisdieren = [];
+        let huisdieren = [];
 
         for (let i = 0; i < data.length; i++) {
           if (str !== new_key) {
@@ -20,46 +19,55 @@ function dataOpschonen() {
             huisdieren.push(data[i].huisdier)
           }
         }
-      //   console.log(huisdieren);
+        console.log(huisdieren)
         return huisdieren
       }
-      
-      function removeEverythingAfterOf (str, newData) {
-        // split na of zodat wanneer er hond of hamster is ingevuld, er alleen hond over blijft
-        const new_huisdieren = [];
-        for (let i = 0; i < newData.length; i++) {
-          const split = newData[i].split("of ", 1);
-          new_huisdieren.push(split[0]);
-        }
-        return new_huisdieren
+
+      // split na of zodat wanneer er hond of hamster is ingevuld, er alleen hond over blijft
+      function removeEverythingAfterOf(str, newData) {
+        let new_huisdieren = newData.map(function (dier) {
+          let legeArray = [];
+          let split = dier.split("of ", 1);
+          // legeArray.push(split[0]);
+          // console.log(legeArray);
+        })
+        console.log(new_huisdieren);
+        // let new_huisdieren = [];
+        // for (let i = 0; i < newData.length; i++) {
+        //   let split = newData[i].split("of ", 1);
+        //   new_huisdieren.push(split[0]);
+        // }
+        // return new_huisdieren
       }
 
+      // zet alle antwoorden om naar lowercase
       function changeToLowercase(str, newData) {
-        // zet alle antwoorden om naar lowercase
-        let new_huisdieren_lowercase = [];
-        for (let i = 0; i < newData.length; i++) {
-          let lowercase = newData[i].toLowerCase();
-          new_huisdieren_lowercase.push(lowercase);
-        }
-        return new_huisdieren_lowercase
+        let new_huisdieren_lowercase = newData.map(function (dier) {
+          let lowercase = dier.toLowerCase();
+          return lowercase;
+        })
+        console.log(new_huisdieren_lowercase);
+        // let new_huisdieren_lowercase = [];
+        // for (let i = 0; i < newData.length; i++) {
+        //   let lowercase = newData[i].toLowerCase();
+        //   new_huisdieren_lowercase.push(lowercase);
+        // }
+        // return new_huisdieren_lowercase
       }
 
-      // let removedOf = removeEverythingAfterOf('huisdier');
       let dataWord = changeQuestionToWord('Wat is je favoriete soort huisdier?');
       let removedOf = removeEverythingAfterOf('huisdier', dataWord);
       let lowerCase = changeToLowercase('huisdier', removedOf);
-      
 
       let cleanedData = [];
 
-      for(let i = 0; i < data.length; i++) {
-
-          cleanedData.push({
-              huisdier: lowerCase[i]
-          })
+      for (let i = 0; i < data.length; i++) {
+        cleanedData.push({
+          huisdier: lowerCase[i]
+        })
       }
 
-      console.log(cleanedData);
+      console.table(cleanedData);
 
     })
 
