@@ -1,4 +1,4 @@
-# functionalprogramming
+# Functional programming
 
 ## Assessment
 
@@ -14,3 +14,10 @@ Eigenlijk had ik voor dit vak nog niet een specifiek concept. Het belangrijkste 
 ### Installatie
 
 1. Clone de repository
+
+
+## Beoordeling
+
+### Rubric
+
+![Rubric](https://imgur.com/a/C60v2LB)
