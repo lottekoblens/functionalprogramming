@@ -14,7 +14,9 @@ function dataOphalen() {
 }
 
 function EverythingToLowerCase(data){
-    for (let i = 0; i < data.length; i++) {
+    console.log(data)
+    for (let i = 0; i < data.tracks.track.length; i++) {
+        console.log('kaas')
         data.tracks.track[i].name = data.tracks.track[i].name.toLowerCase();
         console.log(data);
     }
