@@ -20,4 +20,4 @@ Eigenlijk had ik voor dit vak nog niet een specifiek concept. Het belangrijkste 
 
 ### Rubric
 
-![Rubric](https://imgur.com/a/C60v2LB)
+![Rubric]()
