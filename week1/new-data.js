@@ -2,8 +2,8 @@ function dataOphalen() {
     fetch("data.json")
         .then(response => response.json())
         .then(data => {
-            changeQuestionToWord(data)
-            changeKey(data);
+            EvertythingToLowerCase(data)
+            removeEverythingAfterOf(data);
         
 
             return data
@@ -12,15 +12,16 @@ function dataOphalen() {
         })
 }
 
-function changeQuestionToWord(data) {
+function EvertythingToLowerCase(data) {
     for (let i = 0; i < data.length; i++) {
         data[i]['Wat is je favoriete soort huisdier?'] = data[i]['Wat is je favoriete soort huisdier?'].toLowerCase();
-        console.log(data[i]['Wat is je favoriete soort huisdier?'])
     }
 }
 
-function changeKey(data) {
-    console.log(data)
+function removeEverythingAfterOf (data) {
+    for (let i = 0; i < data.length; i++) {
+        data[i]['Wat is je favoriete soort huisdier?'] = data[i]['Wat is je favoriete soort huisdier?'].split("of ", 1).toString();
+    }
 }
 
 dataOphalen();
