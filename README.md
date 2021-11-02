@@ -35,6 +35,10 @@ If you want to use this code you have to clone the repository by putting this in
 
 ![Rubric](./rubric.png)
 
+## Resources
+
+
+
 ## License
 
 Author: Lotte Koblens, license by [MIT](https://github.com/lottekoblens/functionalprogramming/blob/master/LICENSE)
