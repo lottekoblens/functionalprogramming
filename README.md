@@ -4,7 +4,7 @@
 
 * [Assessment](https://github.com/lottekoblens/functionalprogramming#assessment)
 * [Data Cleaning](https://github.com/lottekoblens/functionalprogramming#data-cleaning)
-  * [Concept](https://github.com/lottekoblens/functionalprogramming#concept)
+  * [:clipboard: Concept](https://github.com/lottekoblens/functionalprogramming#concept)
 * [Installation](https://github.com/lottekoblens/functionalprogramming#installation)
 * [Assignment](https://github.com/lottekoblens/functionalprogramming#assignment)
   * [Rubric](https://github.com/lottekoblens/functionalprogramming#rubric)
