@@ -36,4 +36,4 @@ If you want to know more about my proces. You can read my [Wiki](https://github.
 
 ## License
 
-Author: Lotte Koblens, license by [MIT]()
+Author: Lotte Koblens, license by [MIT](https://github.com/lottekoblens/functionalprogramming/blob/master/LICENSE)
