@@ -7,9 +7,10 @@ const dataOphalen = () => {
             EverythingToLowerCase(data)
             deleteUnusedData(data)
             changeKey(data)
+            // filterListeners(data)
             return data
         }).then(cleanedData => {
-            // console.log opgeschoonde data
+            // opgeschoonde data
             console.log(cleanedData)
         })
 }
@@ -37,5 +38,8 @@ const changeKey = data => {
     })
 }
 
+// const filterListeners = data => {
+//     const result = words.filter(word => word.length > 6);
+// }
 
 dataOphalen();
