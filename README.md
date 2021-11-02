@@ -23,7 +23,7 @@ Actually, at first I didn't have a specific concept for this subject. Most impor
 
 If you want to know more about my proces. You can read my [Wiki](https://github.com/lottekoblens/functionalprogramming/wiki)!
 
-## Installation
+## :file_folder: Installation
 
 1. Clone the repository
 
