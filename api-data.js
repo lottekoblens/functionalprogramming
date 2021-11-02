@@ -35,7 +35,6 @@ const changeKey = data => {
        Object.defineProperty(track, 'nameSong', Object.getOwnPropertyDescriptor(track, 'name'));
         delete track.name;
     })
-    console.log(data.tracks.track)
 }
 
 
