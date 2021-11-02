@@ -2,21 +2,20 @@
 
 ## Assessment
 
-Leer hoe je data kan inladen en opschonen door middel van functional programming.
-
+Learn how to load and clean data through functional programming.
 
 ## Data cleaning
 
 ### Concept
 
-Eigenlijk had ik voor dit vak nog niet een specifiek concept. Het belangrijkste was dat ik de data van de enquête, die we aan het begin van het vak hadden ingevuld, ging opschonen met behulp van functional programming. En daarna moest hetzelfde gebeuren voor een API.
+Actually, I didn't have a specific concept for this subject yet. Most importantly, I was going to clean up the data from the survey, which we filled in at the beginning of the course, using functional programming. And then the same thing had to be done for an API.
 
-### Installatie
+### Installation
 
-1. Clone de repository
+1. Clone the repository
 
 
-## Beoordeling
+## Assignment
 
 ### Rubric
 
