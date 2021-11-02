@@ -8,6 +8,7 @@ const dataOphalen = () => {
             deleteUnusedData(data)
             changeKey(data)
             // filterListeners(data)
+            console.log(data.tracks.track[0].listeners);
             return data
         }).then(cleanedData => {
             // opgeschoonde data
@@ -33,13 +34,15 @@ const deleteUnusedData = data => {
 const changeKey = data => {
     // met behulp van een forEach verander ik de key van name in de array track naar nameSong
     data.tracks.track.forEach(track => {
-       Object.defineProperty(track, 'nameSong', Object.getOwnPropertyDescriptor(track, 'name'));
+        Object.defineProperty(track, 'nameSong', Object.getOwnPropertyDescriptor(track, 'name'));
         delete track.name;
     })
 }
 
-// const filterListeners = data => {
-//     const result = words.filter(word => word.length > 6);
-// }
+const filterListeners = data => {
+    data.tracks.track.forEach(data => {
+        data.tracks.track.listeners = data.tracks.track.listeners.filter(listeners => listeners.length < 1000);
+    })
+}
 
 dataOphalen();
