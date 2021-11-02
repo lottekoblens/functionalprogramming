@@ -6,6 +6,7 @@
 * [Data Cleaning](https://github.com/lottekoblens/functionalprogramming#data-cleaning)
   * [Concept](https://github.com/lottekoblens/functionalprogramming#concept)
 * [Installation](https://github.com/lottekoblens/functionalprogramming#installation)
+* [Wishlist](https://github.com/lottekoblens/functionalprogramming#wishlist)
 * [Assignment](https://github.com/lottekoblens/functionalprogramming#assignment)
   * [Rubric](https://github.com/lottekoblens/functionalprogramming#rubric)
 * [Resources](https://github.com/lottekoblens/functionalprogramming#resources)
@@ -29,6 +30,10 @@ If you want to know more about my proces. You can read my [Wiki](https://github.
 
 If you want to use this code you have to clone the repository by putting this in your terminal: 
 ``` git clone https://github.com/lottekoblens/functionalprogramming ```
+
+## Wishlist
+
+*
 
 ## Assignment
 
