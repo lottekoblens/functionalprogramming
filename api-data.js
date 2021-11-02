@@ -4,7 +4,6 @@ function dataOphalen() {
         .then(data => {
             EverythingToLowerCase(data)
             deleteUnusedData(data)
-            // removeEverythingAfterOf(data);
         
             // console.log(data)
             // console.log(data.tracks.track[0].name)
@@ -16,14 +15,15 @@ function dataOphalen() {
 
 function EverythingToLowerCase(data){
     for (let i = 0; i < data.tracks.track.length; i++) {
-        
         data.tracks.track[i].name = data.tracks.track[i].name.toLowerCase();
     }
 }
 
 function deleteUnusedData(data) {
     data.tracks.track.forEach(track => {
-        console.log(track.name);
+        delete track.image;
+        delete track.mbid;
+        return track
     });
 }
 
