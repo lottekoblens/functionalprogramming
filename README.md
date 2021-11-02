@@ -43,6 +43,8 @@ If you want to use this code you have to clone the repository by putting this in
 * MDN Web Docs. (2021, 13 september). Array.prototype.map() - JavaScript | MDN. Geraadpleegd op 2 november 2021, van https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map?retiredLocale=nl
 * W3Schools. (z.d.). JavaScript Array map() Method. Geraadpleegd op 2 november 2021, van https://www.w3schools.com/jsref/jsref_map.asp
 * W3 cub Docs. (z.d.). Object.defineProperty - JavaScript - W3cubDocs. Geraadpleegd op 2 november 2021, van https://docs.w3cub.com/javascript/global_objects/object/defineproperty
+* MDN. (2021, 28 maart). Hoisting - Woordenlijst | MDN. Geraadpleegd op 02 november 2021, van https://developer.mozilla.org/nl/docs/Glossary/Hoisting
+* w3schools. (z.d.). JavaScript Hoisting. Geraadpleegd op 02 november 2021, van https://www.w3schools.com/js/js_hoisting.asp
 
 ## License
 
