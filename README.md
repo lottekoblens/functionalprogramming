@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-* [Assesment](https://github.com/lottekoblens/functionalprogramming#assessment)
+* [Assessment](https://github.com/lottekoblens/functionalprogramming#assessment)
 * [Data Cleaning](https://github.com/lottekoblens/functionalprogramming#data-cleaning)
   * [Concept](https://github.com/lottekoblens/functionalprogramming#concept)
 * [Installation](https://github.com/lottekoblens/functionalprogramming#installation)
