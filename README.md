@@ -26,8 +26,8 @@ If you want to know more about my proces. You can read my [Wiki](https://github.
 
 ## :file_folder: Installation
 
-1. Clone the repository
-
+If you want to use this code you have to clone the repository by putting this in your terminal: 
+``` git clone https://github.com/lottekoblens/functionalprogramming ```
 
 ## Assignment
 
