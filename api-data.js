@@ -3,24 +3,28 @@ function dataOphalen() {
         .then(response => response.json())
         .then(data => {
             EverythingToLowerCase(data)
+            deleteUnusedData(data)
             // removeEverythingAfterOf(data);
         
             // console.log(data)
             // console.log(data.tracks.track[0].name)
             return data
         }).then(cleanedData => {
-            // console.log(cleanedData)
+            console.log(cleanedData)
         })
 }
 
 function EverythingToLowerCase(data){
-    console.log(data)
     for (let i = 0; i < data.tracks.track.length; i++) {
-        console.log('kaas')
+        
         data.tracks.track[i].name = data.tracks.track[i].name.toLowerCase();
-        console.log(data);
     }
-    // console.log(data);
+}
+
+function deleteUnusedData(data) {
+    data.tracks.track.forEach(track => {
+        console.log(track.name);
+    });
 }
 
 dataOphalen();
