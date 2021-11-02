@@ -33,3 +33,7 @@ If you want to know more about my proces. You can read my [Wiki](https://github.
 ### Rubric
 
 ![Rubric](./rubric.png)
+
+## License
+
+Author: Lotte Koblens, license by [MIT]()
