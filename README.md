@@ -8,6 +8,7 @@
 * [Installation](https://github.com/lottekoblens/functionalprogramming#installation)
 * [Assignment](https://github.com/lottekoblens/functionalprogramming#assignment)
   * [Rubric](https://github.com/lottekoblens/functionalprogramming#rubric)
+* [Resources](https://github.com/lottekoblens/functionalprogramming#resources)
 * [License](https://github.com/lottekoblens/functionalprogramming#license)
 
 ## Assessment
