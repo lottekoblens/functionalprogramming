@@ -4,22 +4,14 @@ const dataOphalen = () => {
         .then(response => response.json())
         .then(data => {
             // geef data mee aan de functies
-            EverythingToLowerCase(data)
-            deleteUnusedData(data)
-            changeKey(data)
-            // filterListeners(data)
-            console.log(data.tracks.track[0].listeners);
+            deleteUnusedData(data);
+            changeKey(data);
+            stringToInteger(data);
             return data
         }).then(cleanedData => {
-            // opgeschoonde data
-            console.log(cleanedData)
+            let filteredData = filterDurationZero(cleanedData)
+            console.log(filteredData)
         })
-}
-
-const EverythingToLowerCase = data => {
-    for (let i = 0; i < data.tracks.track.length; i++) {
-        data.tracks.track[i].name = data.tracks.track[i].name.toLowerCase();
-    }
 }
 
 const deleteUnusedData = data => {
@@ -39,10 +31,19 @@ const changeKey = data => {
     })
 }
 
-const filterListeners = data => {
-    data.tracks.track.forEach(data => {
-        data.tracks.track.listeners = data.tracks.track.listeners.filter(listeners => listeners.length < 1000);
+const stringToInteger = data => {
+    data.tracks.track.forEach(track => {
+        // zet string om naar Integer voor listeners en duration
+        track.listeners = parseInt(track.listeners);
+        track.duration = parseInt(track.duration);
     })
+}
+
+const filterDurationZero = data => {
+    // verwijder objecten waarvan de duration = 0
+    return data.tracks.track.filter(track => {
+           return track.duration > 0;
+        })
 }
 
 dataOphalen();
