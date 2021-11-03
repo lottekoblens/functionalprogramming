@@ -5,6 +5,7 @@
 * [Assessment](https://github.com/lottekoblens/functionalprogramming#assessment)
 * [Data Cleaning](https://github.com/lottekoblens/functionalprogramming#data-cleaning)
   * [Concept](https://github.com/lottekoblens/functionalprogramming#concept)
+  * [Proces](https://github.com/lottekoblens/functionalprogramming#proces)
 * [Installation](https://github.com/lottekoblens/functionalprogramming#installation)
 * [Wishlist](https://github.com/lottekoblens/functionalprogramming#wishlist)
 * [Assignment](https://github.com/lottekoblens/functionalprogramming#assignment)
