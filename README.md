@@ -34,7 +34,8 @@ If you want to use this code you have to clone the repository by putting this in
 
 ## Wishlist
 
-*
+* Using different branches
+* Usign modules to split up my functions and make my code better
 
 ## Assignment
 
