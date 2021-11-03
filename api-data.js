@@ -11,6 +11,9 @@ const dataOphalen = () => {
         }).then(cleanedData => {
             let filteredData = filterDurationZero(cleanedData)
             console.log(filteredData)
+        }).catch(err => {
+            // als er iets fout gaat dan wordt de error in de console weergegeven
+            console.error(err)
         })
 }
 
