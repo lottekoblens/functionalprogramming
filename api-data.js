@@ -1,9 +1,9 @@
-const dataOphalen = () => {
-    //fetch om data uit API op te halen
+const getData = () => {
+    //using fetch to get data from API
     fetch("http://ws.audioscrobbler.com/2.0/?method=geo.gettoptracks&country=netherlands&api_key=f2ab12a57fcca396592451123c0c3ba1&format=json")
         .then(response => response.json())
         .then(data => {
-            // geef data mee aan de functies
+            // pass data to the functions
             deleteUnusedData(data);
             changeKey(data);
             stringToInteger(data);
@@ -12,13 +12,13 @@ const dataOphalen = () => {
             let filteredData = filterDurationZero(cleanedData)
             console.log(filteredData)
         }).catch(err => {
-            // als er iets fout gaat dan wordt de error in de console weergegeven
+            // if something goes wrong, the error is displayed in the console
             console.error(err)
         })
 }
 
 const deleteUnusedData = data => {
-    // gebruik forEach om te loopen over array track. Vervolgens verwijder ik de keys met hun value die ik niet nodig heb
+    // use forEach to loop over array track. Then I delete the keys with their value that I don't need
     data.tracks.track.forEach(track => {
         delete track.image;
         delete track.mbid;
@@ -27,7 +27,7 @@ const deleteUnusedData = data => {
 }
 
 const changeKey = data => {
-    // met behulp van een forEach verander ik de key van name in de array track naar nameSong
+    // using a forEach to change the key from 'name' in the array track to 'nameSong'
     data.tracks.track.forEach(track => {
         Object.defineProperty(track, 'nameSong', Object.getOwnPropertyDescriptor(track, 'name'));
         delete track.name;
@@ -36,17 +36,17 @@ const changeKey = data => {
 
 const stringToInteger = data => {
     data.tracks.track.forEach(track => {
-        // zet string om naar Integer voor listeners en duration
+        // convert string to Integer for listeners and duration
         track.listeners = parseInt(track.listeners);
         track.duration = parseInt(track.duration);
     })
 }
 
 const filterDurationZero = data => {
-    // verwijder objecten waarvan de duration = 0
+    // remove objects whose duration equals to 0
     return data.tracks.track.filter(track => {
            return track.duration > 0;
         })
 }
 
-dataOphalen();
+getData();
