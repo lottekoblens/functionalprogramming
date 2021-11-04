@@ -29,7 +29,8 @@ If you want to use this code you have to clone the repository by putting this in
 ## :pencil: Wishlist
 
 * Using different branches
-* Usign modules to split up my functions and make my code better
+* Using modules to split up my functions and make my code better
+* Displaying the clean data on html page, now it's only shown in the console
 
 ## :clipboard: Assignment
 
