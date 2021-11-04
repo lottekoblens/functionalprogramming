@@ -10,7 +10,7 @@ const getData = () => {
             return data
         }).then(cleanedData => {
             let filteredData = filterDurationZero(cleanedData)
-            console.log(filteredData)
+            console.table(filteredData)
         }).catch(err => {
             // if something goes wrong, the error is displayed in the console
             console.error(err)
