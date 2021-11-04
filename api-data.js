@@ -49,7 +49,8 @@ const stringToInteger = data => {
 
 const sortDuration = data => {
     // using sort to display object from highest duration to lowest duration
-    data.tracks.track.sort((a, b) => b.duration - a.duration);
+    // Sam Boot helped me with this code, he explained to me how it works and how I could use it
+    data.tracks.track.sort((low, high) => high.duration - low.duration);
 }
 
 const filterDurationZero = data => {
