@@ -1,6 +1,6 @@
 # :desktop_computer: Functional programming
 
-## Table of Contents
+## :bookmark_tabs:	 Table of Contents
 
 * [Concept](https://github.com/lottekoblens/functionalprogramming#concept)
 * [Proces](https://github.com/lottekoblens/functionalprogramming#proces)
