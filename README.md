@@ -3,9 +3,8 @@
 ## Table of Contents
 
 * [Assessment](https://github.com/lottekoblens/functionalprogramming#assessment)
-* [Data Cleaning](https://github.com/lottekoblens/functionalprogramming#data-cleaning)
-  * [Concept](https://github.com/lottekoblens/functionalprogramming#concept)
-  * [Proces](https://github.com/lottekoblens/functionalprogramming#proces)
+* [Concept](https://github.com/lottekoblens/functionalprogramming#concept)
+* [Proces](https://github.com/lottekoblens/functionalprogramming#proces)
 * [Installation](https://github.com/lottekoblens/functionalprogramming#installation)
 * [Wishlist](https://github.com/lottekoblens/functionalprogramming#wishlist)
 * [Assignment](https://github.com/lottekoblens/functionalprogramming#assignment)
@@ -17,15 +16,14 @@
 
 Learn how to load and clean data through functional programming.
 
-## Data cleaning
 
-### Concept
+## :bulb: Concept
 
 ![Concept](./concept.png)
 
 Actually, at first I didn't have a specific concept for this subject. Most importantly, I was going to clean up the data from the survey, which we filled in at the beginning of the course, using functional programming. After that we had to clean the data from an API. This is when I start thinking about a concept. I want to compare the duration of a song to the amount of listeners of a song. So I want to make a visualisation in which I displayed that.
 
-### Proces
+## :chart_with_upwards_trend: Proces
 
 If you want to know more about my proces. You can read my [Wiki](https://github.com/lottekoblens/functionalprogramming/wiki)!
 
@@ -34,18 +32,18 @@ If you want to know more about my proces. You can read my [Wiki](https://github.
 If you want to use this code you have to clone the repository by putting this in your terminal: 
 ``` git clone https://github.com/lottekoblens/functionalprogramming ```
 
-## Wishlist
+## :pencil: Wishlist
 
 * Using different branches
 * Usign modules to split up my functions and make my code better
 
-## Assignment
+## :clipboard: Assignment
 
-### Rubric
+### :page_facing_up: Rubric
 
 ![Rubric](./rubric.png)
 
-## Resources
+## :mag_right: Resources
 
 * Recio, S. (2019, 21 augustus). Functional Programming in JavaScript: How and Why - Bits and Pieces. Medium. Geraadpleegd op 28 oktober 2021, van https://blog.bitsrc.io/functional-programming-in-javascript-how-and-why-94e7a97343b
 * JSConf. (2016, 14 juni). Learning Functional Programming with JavaScript - Anjana Vakil - JSUnconf [Video]. YouTube. https://www.youtube.com/watch?v=e-5obm1G_FY
