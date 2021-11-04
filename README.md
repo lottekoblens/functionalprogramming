@@ -34,7 +34,7 @@ If you want to use this code you have to clone the repository by putting this in
 
 ## :clipboard: Assignment
 
-Learn how to load and clean data through functional programming.
+This course is about functional programming in JavaScript. With functional programming we have to clean a dataset that we got after filling in a survey. After that we have to use an API and also clean that data.
 
 ### :page_facing_up: Rubric
 
