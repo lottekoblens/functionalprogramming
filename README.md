@@ -5,6 +5,7 @@
 * [Concept](https://github.com/lottekoblens/functionalprogramming#concept)
 * [Proces](https://github.com/lottekoblens/functionalprogramming#proces)
 * [Installation](https://github.com/lottekoblens/functionalprogramming#installation)
+* [Data](https://github.com/lottekoblens/functionalprogramming#data)
 * [Wishlist](https://github.com/lottekoblens/functionalprogramming#wishlist)
 * [Assignment](https://github.com/lottekoblens/functionalprogramming#assignment)
   * [Rubric](https://github.com/lottekoblens/functionalprogramming#rubric)
@@ -26,6 +27,12 @@ If you want to know more about my proces. You can read my [Wiki](https://github.
 If you want to use this code you have to clone the repository by putting this in your terminal: 
 
 ``` git clone https://github.com/lottekoblens/functionalprogramming ```
+
+## :file_folder:	 Data
+
+In the first week I used the data we got after we filled in a survey.
+
+In the second week we had to use the data we got with an API. I picked the Last.fm API. I collected the data of the Netherlands which contained the most popular tracks in Last.fm of last week.
 
 ## :pencil: Wishlist
 
