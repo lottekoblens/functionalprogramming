@@ -8,6 +8,7 @@ const getData = () => {
             changeKey(data);
             stringToInteger(data);
             return data
+            // return data so you can pass the data to the next then
         }).then(cleanedData => {
             let filteredData = filterDurationZero(cleanedData)
             console.table(filteredData)
@@ -30,6 +31,8 @@ const changeKey = data => {
     // using a forEach to change the key from 'name' in the array track to 'nameSong'
     data.tracks.track.forEach(track => {
         Object.defineProperty(track, 'nameSong', Object.getOwnPropertyDescriptor(track, 'name'));
+        // With the Object.defineProperty() method you can define a 
+        // new property on an object or you can change an existing property on an object
         delete track.name;
     })
 }
