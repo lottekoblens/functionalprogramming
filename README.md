@@ -1,4 +1,4 @@
-# Functional programming
+# :desktop_computer: Functional programming
 
 ## Table of Contents
 
@@ -21,7 +21,7 @@ Actually, at first I didn't have a specific concept for this subject. Most impor
 
 If you want to know more about my proces. You can read my [Wiki](https://github.com/lottekoblens/functionalprogramming/wiki)!
 
-## Installation
+## :wrench: Installation
 
 If you want to use this code you have to clone the repository by putting this in your terminal: 
 ``` git clone https://github.com/lottekoblens/functionalprogramming ```
@@ -49,6 +49,6 @@ Learn how to load and clean data through functional programming.
 * MDN. (2021, 28 maart). Hoisting - Woordenlijst | MDN. Geraadpleegd op 02 november 2021, van https://developer.mozilla.org/nl/docs/Glossary/Hoisting
 * w3schools. (z.d.). JavaScript Hoisting. Geraadpleegd op 02 november 2021, van https://www.w3schools.com/js/js_hoisting.asp
 
-## License
+## :page_with_curl: License
 
 Author: Lotte Koblens, license by [MIT](https://github.com/lottekoblens/functionalprogramming/blob/master/LICENSE)
