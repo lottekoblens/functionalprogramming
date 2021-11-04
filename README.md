@@ -2,7 +2,6 @@
 
 ## Table of Contents
 
-* [Assessment](https://github.com/lottekoblens/functionalprogramming#assessment)
 * [Concept](https://github.com/lottekoblens/functionalprogramming#concept)
 * [Proces](https://github.com/lottekoblens/functionalprogramming#proces)
 * [Installation](https://github.com/lottekoblens/functionalprogramming#installation)
@@ -11,11 +10,6 @@
   * [Rubric](https://github.com/lottekoblens/functionalprogramming#rubric)
 * [Resources](https://github.com/lottekoblens/functionalprogramming#resources)
 * [License](https://github.com/lottekoblens/functionalprogramming#license)
-
-## Assessment
-
-Learn how to load and clean data through functional programming.
-
 
 ## :bulb: Concept
 
@@ -38,6 +32,8 @@ If you want to use this code you have to clone the repository by putting this in
 * Usign modules to split up my functions and make my code better
 
 ## :clipboard: Assignment
+
+Learn how to load and clean data through functional programming.
 
 ### :page_facing_up: Rubric
 
